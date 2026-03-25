@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Molina Dental Care | Modern Family Dentistry</title>
+    <link rel="icon" type="image/jpeg" href="./assets/favicon.png" />
+    <meta
+      name="description"
+      content="Molina Dental Care provides modern, compassionate dental care for families, kids, and adults."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="Molina Dental Care Home">
+          <img src="./assets/logo-cropped.png" alt="Molina Dental Care logo" />
+        </a>
+        <nav class="desktop-nav">
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <nav class="mobile-nav" aria-hidden="true">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Welcome to Molina Dental Care</p>
+            <h1>Healthy, confident smiles for every stage of life.</h1>
+            <p>
+              We combine advanced dental technology with a warm, family-first
+              approach so every visit feels simple, comfortable, and personal.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#contact">Book Appointment</a>
+              <a class="btn btn-secondary" href="#services">Explore Services</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <h2>Now accepting new patients</h2>
+            <ul>
+              <li>Evening appointments available</li>
+              <li>Flexible payment options</li>
+              <li>Most major insurance plans accepted</li>
+            </ul>
+            <a class="btn btn-primary" href="#contact">Request a Visit</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <p class="section-eyebrow">Services</p>
+          <h2>Complete dental care, all in one place.</h2>
+          <div class="service-grid">
+            <article class="service-card">
+              <h3>Preventive Care</h3>
+              <p>
+                Routine checkups, cleanings, digital x-rays, and personalized
+                prevention plans.
+              </p>
+            </article>
+            <article class="service-card">
+              <h3>Cosmetic Dentistry</h3>
+              <p>
+                Whitening, veneers, and smile makeovers designed around your
+                goals and facial aesthetics.
+              </p>
+            </article>
+            <article class="service-card">
+              <h3>Restorative Dentistry</h3>
+              <p>
+                Tooth-colored fillings, crowns, bridges, and implants to
+                restore comfort and function.
+              </p>
+            </article>
+            <article class="service-card">
+              <h3>Emergency Visits</h3>
+              <p>
+                Same-day emergency care for tooth pain, broken teeth, and other
+                urgent concerns.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section section-muted">
+        <div class="container split">
+          <div>
+            <p class="section-eyebrow">Why Molina Dental Care</p>
+            <h2>Modern dentistry with a genuinely personal touch.</h2>
+            <p>
+              From your first exam to long-term care, our team focuses on clear
+              communication, gentle treatment, and results you can feel proud
+              of. We take the time to understand your needs and build a plan
+              that fits your life.
+            </p>
+          </div>
+          <ul class="feature-list">
+            <li>State-of-the-art imaging and diagnostics</li>
+            <li>Comfort-focused treatment philosophy</li>
+            <li>Friendly, bilingual support team</li>
+            <li>Family-friendly scheduling</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="testimonials" class="section">
+        <div class="container">
+          <p class="section-eyebrow">Testimonials</p>
+          <h2>Patients love their experience here.</h2>
+          <div class="testimonial-grid">
+            <blockquote>
+              "The whole team is welcoming and professional. My cleaning was
+              painless and efficient."
+              <cite>- Sarah M.</cite>
+            </blockquote>
+            <blockquote>
+              "They explained every step and made me feel comfortable. Best
+              dental visit I have had."
+              <cite>- James R.</cite>
+            </blockquote>
+            <blockquote>
+              "Great with kids and adults alike. Scheduling and check-in are
+              always smooth."
+              <cite>- Ana L.</cite>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section section-accent">
+        <div class="container contact-wrap">
+          <div>
+            <p class="section-eyebrow">Contact</p>
+            <h2>Ready to schedule your next visit?</h2>
+            <p>Call us at <a href="tel:+10000000000">(000) 000-0000</a>.</p>
+            <p>123 Main Street, Your City, ST 00000</p>
+          </div>
+          <form class="contact-form" action="#" method="post">
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button class="btn btn-primary" type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>&copy; <span id="year"></span> Molina Dental Care. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
