@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Dental Implants Icon</title>
+  <desc id="desc">Circular icon with implant post and crown</desc>
+  <circle cx="32" cy="32" r="30" fill="#e9f1fb" stroke="#3f6fa5" stroke-width="2"/>
+  <path d="M24 21h16l-2 8H26l-2-8Z" fill="#3f6fa5"/>
+  <rect x="29" y="29" width="6" height="18" rx="2" fill="#8a8a8a"/>
+  <path d="M26 33h12M26 37h12M26 41h12" stroke="#3f6fa5" stroke-width="2" stroke-linecap="round"/>
+</svg>

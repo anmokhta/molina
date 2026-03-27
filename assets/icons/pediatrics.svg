@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Pediatric Dentistry Icon</title>
+  <desc id="desc">Circular icon with smiling tooth and star</desc>
+  <circle cx="32" cy="32" r="30" fill="#e9f1fb" stroke="#3f6fa5" stroke-width="2"/>
+  <path d="M20 20c2 0 4 1 6 2 2-1 4-2 6-2s4 1 6 2c2-1 4-2 6-2 2 0 4 2 4 5 0 9-5 20-10 20-3 0-4-2-6-6-2 4-3 6-6 6-5 0-10-11-10-20 0-3 2-5 4-5Z" fill="none" stroke="#3f6fa5" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M27 31c1 1 2 1.6 3 1.6s2-.6 3-1.6" fill="none" stroke="#3f6fa5" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="28" cy="27.5" r="1.2" fill="#3f6fa5"/>
+  <circle cx="34" cy="27.5" r="1.2" fill="#3f6fa5"/>
+  <path d="m46 16 1.2 3 3 1.2-3 1.2L46 24l-1.2-2.6-3-1.2 3-1.2Z" fill="#8a8a8a"/>
+</svg>

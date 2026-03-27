@@ -1,0 +1,298 @@
+:root {
+  --bg: #f7f9fc;
+  --surface: #ffffff;
+  --text: #1a2638;
+  --muted: #64748b;
+  --primary: #3f6fa5;
+  --primary-dark: #2f5784;
+  --line: #d6dee8;
+  --radius: 16px;
+  --shadow: 0 14px 38px rgba(20, 36, 61, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Manrope", sans-serif;
+  line-height: 1.6;
+}
+
+h1,
+h2 {
+  font-family: "Outfit", sans-serif;
+  line-height: 1.2;
+  margin: 0 0 0.8rem;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: min(1120px, 92vw);
+  margin: 0 auto;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: rgba(247, 249, 252, 0.92);
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(8px);
+}
+
+.nav-wrap {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand img {
+  width: 162px;
+  max-width: 30.6vw;
+  display: block;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+}
+
+nav a {
+  font-weight: 600;
+  color: var(--muted);
+}
+
+nav a:hover {
+  color: var(--primary);
+}
+
+.hero {
+  padding: 4.2rem 0 2.8rem;
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, #f7f9fc 0%, #edf3fb 100%);
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--primary);
+  margin-bottom: 0.65rem;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.hero p {
+  max-width: 62ch;
+  color: var(--muted);
+}
+
+.services-section {
+  padding: 2.2rem 0 3.2rem;
+}
+
+.services-carousel {
+  width: 100%;
+  position: relative;
+}
+
+.service-card {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  box-shadow: none;
+}
+
+.service-card h2 {
+  font-size: clamp(1.5rem, 3.4vw, 2rem);
+  margin: 0 0 0.7rem;
+}
+
+.service-title {
+  margin: 0.2rem 0 0.7rem;
+}
+
+.carousel-slide {
+  display: none;
+}
+
+.carousel-slide.is-active {
+  display: block;
+  animation: fadeIn 0.4s ease;
+}
+
+.service-media {
+  width: 100%;
+  min-height: clamp(210px, 38vw, 360px);
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.service-media::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.55) 0%, rgba(0, 0, 0, 0.05) 62%, rgba(0, 0, 0, 0) 100%);
+}
+
+.service-media--preventive {
+  background-image: linear-gradient(120deg, #3f6fa5 0%, #2f5784 55%, #6e93c0 100%);
+}
+
+.service-media--cosmetic {
+  background-image: linear-gradient(120deg, #5e7fa7 0%, #48678d 50%, #8da6c2 100%);
+}
+
+.service-media--restorative {
+  background-image: linear-gradient(120deg, #45668f 0%, #2f5784 50%, #7a97ba 100%);
+}
+
+.service-media--emergency {
+  background-image: linear-gradient(120deg, #3a567b 0%, #304e73 50%, #6d88a7 100%);
+}
+
+.service-media--implants {
+  background-image: linear-gradient(120deg, #516c92 0%, #3b5b82 48%, #90a6c0 100%);
+}
+
+.service-media--pediatrics {
+  background-image: linear-gradient(120deg, #5878a2 0%, #3f6fa5 45%, #8fb1d5 100%);
+}
+
+.service-media--orthodontics {
+  background-image: linear-gradient(120deg, #4f709b 0%, #3f6fa5 48%, #9ab3ce 100%);
+}
+
+.service-icon-overlay {
+  width: clamp(94px, 13vw, 130px);
+  height: clamp(94px, 13vw, 130px);
+  display: block;
+  position: relative;
+  z-index: 1;
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.35));
+}
+
+.service-copy {
+  padding-top: 1.5rem;
+  text-align: center;
+}
+
+.service-header-slot {
+  min-height: 2.4rem;
+  margin-bottom: 0.7rem;
+}
+
+.service-card p {
+  color: var(--muted);
+  max-width: 72ch;
+  margin: 0 auto 1rem;
+}
+
+.service-card ul {
+  margin: 0.8rem auto 0;
+  max-width: 44rem;
+  padding-left: 1.15rem;
+  text-align: left;
+}
+
+.service-card li {
+  margin: 0.45rem 0;
+}
+
+.carousel-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: clamp(105px, 19vw, 180px);
+  transform: translateY(-50%);
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-size: clamp(1.9rem, 3vw, 2.5rem);
+  line-height: 1;
+  padding: 0.15rem 0.35rem;
+  cursor: pointer;
+  z-index: 4;
+  text-shadow: 0 3px 14px rgba(0, 0, 0, 0.55);
+  opacity: 0.92;
+}
+
+.carousel-arrow:hover {
+  opacity: 1;
+}
+
+.carousel-arrow--prev {
+  left: 1rem;
+}
+
+.carousel-arrow--next {
+  right: 1rem;
+}
+
+.carousel-dots {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-dot {
+  width: 8px;
+  height: 8px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--line);
+  cursor: pointer;
+  padding: 0;
+}
+
+.carousel-dot.is-active {
+  background: var(--primary);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.site-footer {
+  border-top: 1px solid var(--line);
+  padding: 1rem 0;
+  color: var(--muted);
+  text-align: center;
+}
+

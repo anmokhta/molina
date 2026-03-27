@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Restorative Dentistry Icon</title>
+  <desc id="desc">Circular icon with tooth and plus symbol</desc>
+  <circle cx="32" cy="32" r="30" fill="#e9f1fb" stroke="#3f6fa5" stroke-width="2"/>
+  <path d="M20 18c2 0 4 1 6 2 2-1 4-2 6-2s4 1 6 2c2-1 4-2 6-2 2 0 4 2 4 5 0 10-5 23-10 23-3 0-4-2-6-7-2 5-3 7-6 7-5 0-10-13-10-23 0-3 2-5 4-5Z" fill="none" stroke="#3f6fa5" stroke-width="2.2" stroke-linejoin="round"/>
+  <circle cx="45.5" cy="18.5" r="8.5" fill="#3f6fa5"/>
+  <path d="M45.5 14v9M41 18.5h9" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+</svg>

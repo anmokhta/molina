@@ -166,7 +166,7 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 999px;
-  padding: 0.78rem 1.1rem;
+  padding: 0.64rem 0.95rem;
   font-weight: 700;
   border: 1px solid transparent;
 }
@@ -192,11 +192,20 @@ a {
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .hero-card ul {
   margin: 1rem 0 1.3rem;
   padding-left: 1.1rem;
+  list-style-position: outside;
+  text-align: left;
+  align-self: stretch;
+  margin-left: -0.3rem;
   color: var(--muted);
 }
 
@@ -225,6 +234,10 @@ a {
   border-radius: var(--radius);
   background: var(--surface);
   padding: 1rem;
+}
+
+.service-card h3 {
+  margin-top: 0;
 }
 
 .service-card p {

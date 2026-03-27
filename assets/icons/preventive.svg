@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Preventive Care Icon</title>
+  <desc id="desc">Circular icon with tooth and shield</desc>
+  <circle cx="32" cy="32" r="30" fill="#e9f1fb" stroke="#3f6fa5" stroke-width="2"/>
+  <path d="M20 18c2 0 4 1 6 2 2-1 4-2 6-2s4 1 6 2c2-1 4-2 6-2 2 0 4 2 4 5 0 10-5 23-10 23-3 0-4-2-6-7-2 5-3 7-6 7-5 0-10-13-10-23 0-3 2-5 4-5Z" fill="none" stroke="#3f6fa5" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="m32 24 5 3v5c0 4-3 6-5 7-2-1-5-3-5-7v-5l5-3Z" fill="#3f6fa5"/>
+  <path d="m32 28 2 2 4-4" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
